@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+html {
+   background: linear-gradient(to bottom, rgb(120, 23, 84), rgb(51, 51, 51));
+   font-family: Verdana, Geneva, sans-serif;
+   min-height: 100%;
+   background-color: black;
+}
+
+body { 
+   margin: 0px auto;
+   min-width: 340px;
+   max-width: 1020px;  
+   width: 100%;
+   min-height: auto;
+}
+* {
+    box-sizing: border-box;
+    
+	color: purple;
+}
+
+
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333; 
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: purple;
+}
+
+ /* Centering */
+.center, p, ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	min-width: 340px;
+    width: 50%;
+}
+
+/*Image Styles */
+
+
+img.avatar {
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;	
+	height: 20%;
+    width: 20%;
+}
+
+/* Image Styles */
+img {
+	width: 100%;
+    height: auto;
+	border-radius: 5%;
+}
+ 
+ /* Header Styles */
+ h2 {
+	 font-family: "Comic Sans MS", cursive, sans-serif;
+	 text-shadow:  2px 2px #000000;
+	 text-decoration: underline ;
+ }
+
+ /* Misc Styles */
+ figcaption {
+	font-variant: small-caps;
+ }
+ 
+ p#intro {
+	 text-align: center;
+ }
+ 
+
+/* Style the content */
+.content {
+	margin: 0% auto;
+    background-color: #ddd;
+    padding: 20px;
+    
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 5px;
+	font-size: 11px;
+	text-align: left;
+}
